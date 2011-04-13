@@ -1,0 +1,23 @@
+{ "name" : "deferred"
+, "description" : "An implementation of Twisted's Deferred in JavaScript"
+, "version" : "1.0"
+, "homepage" : "http://heavylifters.com/deferred/js"
+, "author" : "HeavyLifters Network Ltd. <dev@heavylifters.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/heavylifters/deferred-js"
+  }
+, "bugs" :
+  { "mail" : "dev@heavylifters.com"
+  , "web" : "http://github.com/heavylifters/deferred-js/issues"
+  }
+, "directories" : { "lib" : "./lib" }
+, "main" : "./lib/deferred"
+, "engines" : { "node" : ">=0.2.0" }
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/heavylifters/deferred-js/raw/master/LICENSE"
+    }
+  ]
+, "devDependencies" : { "vows" : "0.5.x" }
+}
